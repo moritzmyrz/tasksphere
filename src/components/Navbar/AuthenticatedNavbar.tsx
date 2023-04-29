@@ -25,10 +25,11 @@ import {
   useColorModeValue,
   useDisclosure,
 } from "@chakra-ui/react";
-import { type Session } from "next-auth";
 import { signOut } from "next-auth/react";
 import { useState, type ReactNode } from "react";
 import { api } from "~/utils/api";
+
+import { type Session } from "next-auth";
 
 const Links = ["Dashboard", "Projects", "Team"];
 

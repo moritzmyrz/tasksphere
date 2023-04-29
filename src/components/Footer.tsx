@@ -7,8 +7,9 @@ import {
   useColorModeValue,
   VisuallyHidden,
 } from "@chakra-ui/react";
-import { type ReactNode } from "react";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+
+import { type ReactNode } from "react";
 
 const Logo = (props: any) => {
   return (
